@@ -1,5 +1,5 @@
 ##### Code for scRNA merge & Integration
-##### Author: Hyundong Yoon (lagom2728@snu.ac.kr)
+##### Author: Hyundong Yoon (lagom2728@snu.ac.kr) / Logan S. Dean (Ls.Dean@colostate.edu) 
 
 ## STEP 1 : Calling packages 
 
