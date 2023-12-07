@@ -41,9 +41,7 @@ empty_droplet_list[[7]] <- Dir7
 empty_droplet_list[[8]] <- Dir8
 
 for (i in 1:8) {
-  sce <- empty_droplet_list[[i]]
-  
-  sce.1 <- read10xCounts(Dir1)
+  sce.1 <- read10xCounts(empty_droplet_list)
   rownames(sce.1) = uniquifyFeatureNames(rowData(sce.1)$ID, rowData(sce.1)$Symbol)
   colnames(sce.1) = sce.1$Barcode
   my.counts.1=counts(sce.1)
